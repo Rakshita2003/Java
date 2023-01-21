@@ -1,0 +1,15 @@
+Question: Given two non-negative integers low and high. Return the count of odd numbers between low and high
+
+Solution:
+
+class Solution {
+    public int countOdds(int low, int high) {
+        int num=high-low+1;  //counting total numbers in range
+ 
+		if(low%2!=0 && high%2!=0)  
+            return num/2 + 1;
+        
+        else
+		return num/2;
+    }
+}
