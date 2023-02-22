@@ -5,7 +5,7 @@ class Main{
     }
         int maxVal=arr[0];
         for(int i=1;i<arr.length;i++) {
-            if (arr[i] > maxVal) {
+            if (arr[i] > maxVal) { //to find min value just use "<" sign
                 maxVal = arr[i];
             }
         }
